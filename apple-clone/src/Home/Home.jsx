@@ -5,6 +5,7 @@ import Iphon16 from '../Conponents/Iphon16/Iphon16'
 import Ipad from '../Conponents/Ipad/Ipad'
 import Watch from '../Conponents/Watch/Watch'
 import Airpods from '../Conponents/Airpods/Airpods'
+import MacBookAir from '../Conponents/MacBook Air/MacBook Air'
 export default function Home() {
   return (
     <div>
@@ -14,6 +15,7 @@ export default function Home() {
       <Ipad/>
       <Watch/>
       <Airpods/>
+      <MacBookAir/>
     </div>
   )
 }
