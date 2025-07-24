@@ -81,7 +81,7 @@ h2 {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 0;
+  padding: 0.3rem 0;
   z-index: 1000
 }
 .header-2 {
@@ -143,14 +143,8 @@ h2 {
   width: 15px;
 }
 
-/* Style the collapsed menu */
-/* .collapse.navbar-collapse {
-  justify-content: flex-end;
-  padding: 10px;
-  font-size: 40px;
-} */
 .apple-logo {
-  width: 15px;
+  width: 18px;
   opacity: 0.8;
 }
 .apple-logo:hover {
