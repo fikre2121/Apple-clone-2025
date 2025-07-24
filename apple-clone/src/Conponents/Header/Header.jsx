@@ -1,8 +1,25 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Cart from "../../assets/images/cart.png";
 import SearchIcon from "../../assets/images/search-icon.png";
 import Logo from "../../assets/images/logo.png";
+import $ from "jquery";
+
 function Header() {
+  useEffect(() => {
+    const $naves = $(".navbar-collapse");
+    const $toggler = $(".toggler");
+
+    $toggler.on("click", function () {
+      $(this).toggleClass("fa-xmark");
+      $naves.toggleClass("active");
+    });
+
+    // Cleanup to avoid memory leaks
+    return () => {
+      $toggler.off("click");
+    };
+  }, []);
+
   return (
     <>
       <header className="header">

@@ -4,7 +4,7 @@ import tradeIn from "../../assets/images/promo_logo_iphone_tradein__7y3gtai5az66
   return (
     <>
       <section className="trade-home">
-        <div className="container-fluide">
+        <div className="container-fluid">
           <div className="row g-md-3">
             <div className="trade-1 text-center mb-2 col-md-6">
               <div className="pro-text pt-4">
