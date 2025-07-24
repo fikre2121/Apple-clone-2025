@@ -1,5 +1,5 @@
 import React from 'react'
-
+import proLogowatch from "../../assets/images/promo_logo_apple_watch_series_10__qk5vaa89vnm2_medium_2x.png";
  function Watch() {
   return (
     <>
@@ -24,7 +24,7 @@ import React from 'react'
             <div className="pro-text-container watch-2 text-center watch col-md-6">
               <div className="pro-text pt-4">
                 <img
-                  src="images/promo_logo_apple_watch_series_10__qk5vaa89vnm2_medium_2x.png"
+                  src={proLogowatch}
                   alt=""
                   className="watch-logo"
                 />
