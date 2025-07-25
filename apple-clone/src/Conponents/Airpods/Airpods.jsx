@@ -6,6 +6,7 @@ import React from 'react'
       <section className="airpod-home">
         <div className="container-fluid">
           <div className="row">
+            
             <div className="pro-text-container airpod-1 text-center col-md-6 mb-2">
               <h2 className="white">Airpods Pro 2</h2>
               <p className="subhead white">
@@ -22,6 +23,8 @@ import React from 'react'
                 </a>
               </div>
             </div>
+
+
             <div className="pro-text-container airpod-2 text-center col-md-6 mb-2">
               <div className="pro-text">
                 <h2 className="white">Airpods 4</h2>

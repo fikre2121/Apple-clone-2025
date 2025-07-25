@@ -228,6 +228,7 @@ h2 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+ /* margin: 5px; */
 }
 .watch-logo {
   width: 150px;
@@ -260,7 +261,9 @@ h2 {
   background-size: cover;
   padding: 370px 30px 40px;
 }
-
+.airpod-home{
+  margin-top: 10px;
+}
 /* the trade section*/
 
 .trade-1 {

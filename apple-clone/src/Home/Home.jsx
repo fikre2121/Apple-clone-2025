@@ -7,6 +7,7 @@ import Watch from '../Conponents/Watch/Watch'
 import Airpods from '../Conponents/Airpods/Airpods'
 import MacBookAir from '../Conponents/MacBook Air/MacBook Air'
 import Footer from '../Conponents/Footer/Footer'
+import Carousel from '../Conponents/Carousel/Carousel'
 export default function Home() {
   return (
     <div>
@@ -17,6 +18,7 @@ export default function Home() {
       <Watch/>
       <Airpods/>
       <MacBookAir/>
+      <Carousel/>
       <Footer/>
     </div>
   )
