@@ -1,5 +1,6 @@
 import React from 'react'
 import tradeIn from "../../assets/images/promo_logo_iphone_tradein__7y3gtai5az66_medium_2x.png";
+
  function MacBookAir() {
   return (
     <>
